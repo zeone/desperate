@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: d85944f84287bc8448a0649ebb8c5a3a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: HumanHead
+    100002: HumanLCalf
+    100004: HumanLFoot
+    100006: HumanLForearm
+    100008: HumanLPalm
+    100010: HumanLThigh
+    100012: HumanLUpperarm
+    100014: HumanNeck
+    100016: HumanPelvis
+    100018: HumanRCalf
+    100020: HumanRFoot
+    100022: HumanRForearm
+    100024: HumanRibcage
+    100026: HumanRPalm
+    100028: HumanRThigh
+    100030: HumanRUpperarm
+    100032: HumanSpine1
+    100034: HumanSpine2
+    100036: HumanSpine3
+    100038: //RootNode
+    100040: ZombiMesh
+    400000: HumanHead
+    400002: HumanLCalf
+    400004: HumanLFoot
+    400006: HumanLForearm
+    400008: HumanLPalm
+    400010: HumanLThigh
+    400012: HumanLUpperarm
+    400014: HumanNeck
+    400016: HumanPelvis
+    400018: HumanRCalf
+    400020: HumanRFoot
+    400022: HumanRForearm
+    400024: HumanRibcage
+    400026: HumanRPalm
+    400028: HumanRThigh
+    400030: HumanRUpperarm
+    400032: HumanSpine1
+    400034: HumanSpine2
+    400036: HumanSpine3
+    400038: //RootNode
+    400040: ZombiMesh
+    4300000: ZombiMesh
+    7400000: Attack
+    7400002: Walk
+    7400004: Run
+    7400006: AltAttack
+    7400008: Death
+    7400010: ImpulseDeath
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ZombiMesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 109
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 148
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AltAttack
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 249
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ImpulseDeath
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 300
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HumanPelvis
+        weight: 1
+      - path: HumanPelvis/HumanLThigh
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf
+        weight: 1
+      - path: HumanPelvis/HumanLThigh/HumanLCalf/HumanLFoot
+        weight: 1
+      - path: HumanPelvis/HumanRThigh
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf
+        weight: 1
+      - path: HumanPelvis/HumanRThigh/HumanRCalf/HumanRFoot
+        weight: 1
+      - path: HumanPelvis/HumanSpine1
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanLUpperarm/HumanLForearm/HumanLPalm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanNeck/HumanHead
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm
+        weight: 1
+      - path: HumanPelvis/HumanSpine1/HumanSpine2/HumanSpine3/HumanRibcage/HumanRUpperarm/HumanRForearm/HumanRPalm
+        weight: 1
+      - path: ZombiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

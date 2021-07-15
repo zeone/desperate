@@ -1,0 +1,514 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Fire
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 2.18556924e-08, y: 0, z: 0, w: 1}
+        inSlope: {x: 3.74710012e-39, y: 4.4297777e-38, z: NaN, w: 3.74706088e-39}
+        outSlope: {x: -1.33170521, y: -1.30152833e-09, z: 1.73619963e-09, w: -.000238418579}
+        tangentMode: 0
+      - time: .25
+        value: {x: -.335372984, y: -5.37254508e-08, z: 1.000138e-07, w: .942085445}
+        inSlope: {x: .0332593918, y: -6.73594514e-09, z: 6.50857146e-09, w: .011920929}
+        outSlope: {x: -.0332593918, y: 6.73594514e-09, z: -6.50857146e-09, w: -.011920929}
+        tangentMode: 0
+      - time: .5
+        value: {x: 2.18556924e-08, y: 0, z: 0, w: 1}
+        inSlope: {x: 1.33169878, y: 1.30133959e-09, z: -1.73594794e-09, w: .000238418579}
+        outSlope: {x: 5.89840435e-39, y: 4.55215293e-13, z: 3.74708891e-39, w: 1.69641428e-12}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ShootGun_Mesh
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 6.80528829e-05, y: 1.16416541e-05, z: .000472680578}
+        outSlope: {x: 6.80528829e-05, y: 1.16416541e-05, z: .000472680578}
+        tangentMode: 0
+      - time: .25
+        value: {x: 1.70132207e-05, y: 2.91041351e-06, z: .000118170145}
+        inSlope: {x: 3.44600267e-07, y: 1.08126778e-06, z: .64030695}
+        outSlope: {x: 3.44600267e-07, y: 1.08126778e-06, z: .64030695}
+        tangentMode: 3
+      - time: .5
+        value: {x: 1.72300318e-07, y: 5.40633891e-07, z: .320153475}
+        inSlope: {x: -6.73636823e-05, y: -9.47911849e-06, z: 1.28014123}
+        outSlope: {x: -6.73636823e-05, y: -9.47911849e-06, z: 1.28014123}
+        tangentMode: 4
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ShootGun_Mesh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .0339715742, y: 3.43592518e-07, z: -.096706301}
+        inSlope: {x: .000270903111, y: 1.10096835e-07, z: -.324282467}
+        outSlope: {x: .000270903111, y: 1.10096835e-07, z: -.324282467}
+        tangentMode: 0
+      - time: .25
+        value: {x: .0340392999, y: 3.71116727e-07, z: -.177776918}
+        inSlope: {x: .000270903111, y: 1.10096835e-07, z: -.324282467}
+        outSlope: {x: .000270903111, y: 1.10096835e-07, z: -.324282467}
+        tangentMode: 721474324
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.132744536, y: -.317101836, z: .404710114}
+        inSlope: {x: .456669062, y: -.0209425092, z: -.294216275}
+        outSlope: {x: .456669062, y: -.0209425092, z: -.294216275}
+        tangentMode: 0
+      - time: .5
+        value: {x: .0955899954, y: -.327573091, z: .257601976}
+        inSlope: {x: .126593366, y: -.0104711354, z: -1.33604431}
+        outSlope: {x: .126593366, y: -.0104711354, z: -1.33604431}
+        tangentMode: 0
+      - time: .75
+        value: {x: .0447194129, y: -.327573031, z: -.33686614}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: .0955899954, y: -.327573091, z: .257601976}
+        inSlope: {x: .20348233, y: -2.38418579e-07, z: 2.37787247}
+        outSlope: {x: .20348233, y: -2.38418579e-07, z: 2.37787247}
+        tangentMode: 84
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ShootGun_Mesh/L
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 6.80528829e-05
+        outSlope: 6.80528829e-05
+        tangentMode: 10
+      - time: .25
+        value: 1.70132207e-05
+        inSlope: 3.44600267e-07
+        outSlope: 3.44600267e-07
+        tangentMode: 10
+      - time: .5
+        value: 1.72300318e-07
+        inSlope: -6.73636823e-05
+        outSlope: -6.73636823e-05
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1.16416541e-05
+        outSlope: 1.16416541e-05
+        tangentMode: 10
+      - time: .25
+        value: 2.91041351e-06
+        inSlope: 1.08126778e-06
+        outSlope: 1.08126778e-06
+        tangentMode: 10
+      - time: .5
+        value: 5.40633891e-07
+        inSlope: -9.47911849e-06
+        outSlope: -9.47911849e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: .000472680578
+        outSlope: .000472680578
+        tangentMode: 10
+      - time: .25
+        value: .000118170145
+        inSlope: .64030695
+        outSlope: .64030695
+        tangentMode: 10
+      - time: .5
+        value: .320153475
+        inSlope: 1.28014123
+        outSlope: 1.28014123
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0339715742
+        inSlope: .000270903111
+        outSlope: .000270903111
+        tangentMode: 10
+      - time: .25
+        value: .0340392999
+        inSlope: .000270903111
+        outSlope: .000270903111
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3.43592518e-07
+        inSlope: 1.10096835e-07
+        outSlope: 1.10096835e-07
+        tangentMode: 10
+      - time: .25
+        value: 3.71116727e-07
+        inSlope: 1.10096835e-07
+        outSlope: 1.10096835e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.096706301
+        inSlope: -.324282467
+        outSlope: -.324282467
+        tangentMode: 10
+      - time: .25
+        value: -.177776918
+        inSlope: -.324282467
+        outSlope: -.324282467
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.18556924e-08
+        inSlope: 3.74710012e-39
+        outSlope: -1.33170521
+        tangentMode: 0
+      - time: .25
+        value: -.335372984
+        inSlope: .0332593918
+        outSlope: -.0332593918
+        tangentMode: 0
+      - time: .5
+        value: 2.18556924e-08
+        inSlope: 1.33169878
+        outSlope: 5.89840435e-39
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 4.4297777e-38
+        outSlope: -1.30152833e-09
+        tangentMode: 0
+      - time: .25
+        value: -5.37254508e-08
+        inSlope: -6.73594514e-09
+        outSlope: 6.73594514e-09
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 1.30133959e-09
+        outSlope: 4.55215293e-13
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: NaN
+        outSlope: 1.73619963e-09
+        tangentMode: 0
+      - time: .25
+        value: 1.000138e-07
+        inSlope: 6.50857146e-09
+        outSlope: -6.50857146e-09
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: -1.73594794e-09
+        outSlope: 3.74708891e-39
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 3.74706088e-39
+        outSlope: -.000238418579
+        tangentMode: 0
+      - time: .25
+        value: .942085445
+        inSlope: .011920929
+        outSlope: -.011920929
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: .000238418579
+        outSlope: 1.69641428e-12
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.132744536
+        inSlope: .456669062
+        outSlope: .456669062
+        tangentMode: 10
+      - time: .5
+        value: .0955899954
+        inSlope: .126593366
+        outSlope: .126593366
+        tangentMode: 10
+      - time: .75
+        value: .0447194129
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: .0955899954
+        inSlope: .20348233
+        outSlope: .20348233
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ShootGun_Mesh/L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.317101836
+        inSlope: -.0209425092
+        outSlope: -.0209425092
+        tangentMode: 10
+      - time: .5
+        value: -.327573091
+        inSlope: -.0104711354
+        outSlope: -.0104711354
+        tangentMode: 10
+      - time: .75
+        value: -.327573031
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: -.327573091
+        inSlope: -2.38418579e-07
+        outSlope: -2.38418579e-07
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ShootGun_Mesh/L
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .404710114
+        inSlope: -.294216275
+        outSlope: -.294216275
+        tangentMode: 10
+      - time: .5
+        value: .257601976
+        inSlope: -1.33604431
+        outSlope: -1.33604431
+        tangentMode: 10
+      - time: .75
+        value: -.33686614
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: .257601976
+        inSlope: 2.37787247
+        outSlope: 2.37787247
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ShootGun_Mesh/L
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.50447783e-06
+        inSlope: -156.762695
+        outSlope: -156.762695
+        tangentMode: 10
+      - time: .25
+        value: 320.80957
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 2.50447783e-06
+        inSlope: 156.762695
+        outSlope: 156.762695
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAngles.x
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 10
+      - time: .25
+        value: -1.24424951e-05
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAngles.y
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 10
+      - time: .25
+        value: 1.65946876e-05
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAngles.z
+    path: ShootGun_Mesh
+    classID: 4
+    script: {fileID: 0}
+  m_Events: []

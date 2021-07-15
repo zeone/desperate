@@ -1,0 +1,95 @@
+001 - 009   T-Pose              
+010 - 050   walk_forward              
+055 - 095   walk_backwards           
+100 - 120   run                 
+125 - 150   jump                
+155 - 185   strafe_left         
+190 - 220   strafe_right        
+225 - 255   turn_left           
+260 - 290   turn_right          
+295 - 325   action1             
+325 - 355   action2             
+355 - 395   action3             
+395 - 445   action_drop         
+445 - 480   action_crossbow
+480 - 500   take_sword          
+500 - 595   ready_to_action_sw  
+600 - 640   walk_frowar_sword            
+645 - 685   walk_backwards_sword        
+690 - 710   run_sword              
+715 - 744   jump_sword             
+745 - 775   strafe_left_sword      
+780 - 810   strafe_right_sword     
+815 - 845   turn_left_sword        
+850 - 880   turn_right_sword       
+885 - 915   action1_sword          
+915 - 955   action2_sword          
+955 - 1020  action3_sword          
+1025 - 1045 drop_sword          
+1045 - 1095 death_1             
+1100 - 1145 death_2             
+1150 - 1249 idle_1              
+1250 - 1450 idle_2              
+1455 - 1555 idle_sitting        
+1560 - 1660 idle_sleeping       
+1665 - 1765 idle_chat           
+1765 - 1905 idle_scratching_head
+1905 - 1965 idle_waving         
+1965 - 2020 screaming           
+2020 - 2140 eating              
+2140 - 2250 jumping happy       
+2260 - 2345 crying              
+2350 - 2400 scared              
+2405 - 2455 drooling
+2455 - 2570 laughing            
+2570 - 2690 digging             
+2690 - 2780 tired               
+2790 - 2825 applaud            
+2830 - 3000 suicide
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
